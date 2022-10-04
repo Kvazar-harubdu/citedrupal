@@ -1,13 +1,13 @@
-uuid: 55331a35-b185-4b9a-a440-1eff774c8e84
+uuid: 131f230b-6cc9-4208-b625-c21b9df68cfa
 langcode: en
 status: true
 dependencies:
   module:
+    - block_content
     - media
-    - node
-id: node.field_image
+id: block_content.field_image
 field_name: field_image
-entity_type: node
+entity_type: block_content
 type: entity_reference
 settings:
   target_type: media

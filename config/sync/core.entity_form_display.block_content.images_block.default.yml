@@ -1,0 +1,30 @@
+uuid: 8bc0dd7c-165f-411e-92b7-26fa2445d7d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.images_block
+    - field.field.block_content.images_block.field_image
+  module:
+    - media_library
+id: block_content.images_block.default
+targetEntityType: block_content
+bundle: images_block
+mode: default
+content:
+  field_image:
+    type: media_library_widget
+    weight: 1
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

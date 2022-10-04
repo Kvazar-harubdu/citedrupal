@@ -1,0 +1,30 @@
+uuid: 56945134-5045-4a83-abcc-293577ece677
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:images_block:4bed2b62-570c-4e01-b896-8ce14e2c8cd8'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: burgermenutop
+theme: bartik
+region: secondary_menu
+weight: -8
+provider: null
+plugin: 'block_content:4bed2b62-570c-4e01-b896-8ce14e2c8cd8'
+settings:
+  id: 'block_content:4bed2b62-570c-4e01-b896-8ce14e2c8cd8'
+  label: burgermenu-top
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/*'

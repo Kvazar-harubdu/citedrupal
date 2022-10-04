@@ -1,0 +1,8 @@
+uuid: 931fe65a-0df3-4a9e-a2a6-db812068bd28
+langcode: en
+status: true
+dependencies: {  }
+name: 'new menu'
+vid: menu
+description: ''
+weight: 0

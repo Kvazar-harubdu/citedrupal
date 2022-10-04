@@ -1,0 +1,21 @@
+uuid: 5db40111-82d7-4509-b53a-71e58a5e61e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_images
+    - node.type.image
+id: node.image.field_images
+field_name: field_images
+entity_type: node
+bundle: image
+label: image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings: {  }
+field_type: entity_reference

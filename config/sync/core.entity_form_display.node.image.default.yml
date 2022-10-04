@@ -1,28 +1,23 @@
-uuid: dbe73db1-1efe-43fd-b7a7-f7fd4bd60ea2
+uuid: 9e1e97d0-0f64-44c6-bbc5-d477656e1391
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.article.body
-    - field.field.node.article.comment
-    - field.field.node.article.field_image
-    - field.field.node.article.field_tags
-    - node.type.article
+    - field.field.node.image.body
+    - field.field.node.image.field_images
+    - node.type.image
   module:
-    - comment
     - media_library
     - path
     - text
-_core:
-  default_config_hash: Pzq9mzrsfoPf775qgEU_SUbHSro9pv1ga-Euh1Ykd_k
-id: node.article.default
+id: node.image.default
 targetEntityType: node
-bundle: article
+bundle: image
 mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 1
+    weight: 121
     region: content
     settings:
       rows: 9
@@ -30,34 +25,18 @@ content:
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
-  comment:
-    type: comment_default
-    weight: 20
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   created:
     type: datetime_timestamp
     weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_image:
+  field_images:
     type: media_library_widget
-    weight: 121
+    weight: 122
     region: content
     settings:
       media_types: {  }
-    third_party_settings: {  }
-  field_tags:
-    type: entity_reference_autocomplete_tags
-    weight: 3
-    region: content
-    settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
     third_party_settings: {  }
   path:
     type: path
@@ -88,7 +67,7 @@ content:
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: 0
+    weight: -5
     region: content
     settings:
       size: 60

@@ -1,0 +1,29 @@
+uuid: c9da5c9f-a9de-4a41-9488-1051b32a9402
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-custom
+  module:
+    - system
+  theme:
+    - bartik
+id: menucustom
+theme: bartik
+region: primary_menu
+weight: -9
+provider: null
+plugin: 'system_menu_block:menu-custom'
+settings:
+  id: 'system_menu_block:menu-custom'
+  label: 'menu custom'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/*'

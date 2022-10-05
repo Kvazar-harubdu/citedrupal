@@ -1,0 +1,29 @@
+uuid: d2d3a1a1-d1d5-4656-8973-10cb43e9c0f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_menu_custom
+    - node.type.menu_select
+    - taxonomy.vocabulary.menu
+id: node.menu_select.field_menu_custom
+field_name: field_menu_custom
+entity_type: node
+bundle: menu_select
+label: 'menu custom'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      menu: menu
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

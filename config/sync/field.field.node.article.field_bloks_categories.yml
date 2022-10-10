@@ -1,16 +1,16 @@
-uuid: daedb89c-c4f0-45a7-aceb-e90337a53e37
+uuid: f06dfa10-ff19-4a76-8715-d401a8f6b74f
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_categories
+    - field.storage.node.field_bloks_categories
     - node.type.article
-    - taxonomy.vocabulary.menu
-id: node.article.field_categories
-field_name: field_categories
+    - taxonomy.vocabulary.blogs_categories
+id: node.article.field_bloks_categories
+field_name: field_bloks_categories
 entity_type: node
 bundle: article
-label: categories
+label: 'bloks categories'
 description: ''
 required: false
 translatable: false
@@ -20,7 +20,7 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      menu: menu
+      blogs_categories: blogs_categories
     sort:
       field: name
       direction: asc

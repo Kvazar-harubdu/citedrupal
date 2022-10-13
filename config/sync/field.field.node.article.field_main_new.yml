@@ -1,0 +1,23 @@
+uuid: b7174ca8-6728-4333-bc88-fa74a7581220
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_main_new
+    - node.type.article
+id: node.article.field_main_new
+field_name: field_main_new
+entity_type: node
+bundle: article
+label: 'Main new'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

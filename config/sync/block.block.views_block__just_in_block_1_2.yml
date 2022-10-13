@@ -1,22 +1,22 @@
-uuid: 4c7fb9fb-b27b-45ac-a942-652123c0ac29
+uuid: 1eeeb36c-68e0-4620-b267-f79aa6a139f2
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.wat_s_happening
+    - views.view.just_in
   module:
     - system
     - views
   theme:
     - bartik
-id: views_block__wat_s_happening_block_1
+id: views_block__just_in_block_1_2
 theme: bartik
-region: sidebar_first
+region: sidebar_second
 weight: 0
 provider: null
-plugin: 'views_block:wat_s_happening-block_1'
+plugin: 'views_block:just_in-block_1'
 settings:
-  id: 'views_block:wat_s_happening-block_1'
+  id: 'views_block:just_in-block_1'
   label: ''
   label_display: visible
   provider: views

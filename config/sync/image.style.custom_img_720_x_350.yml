@@ -1,0 +1,15 @@
+uuid: a86135ea-d3d3-4b0b-b7ca-e1162e1a2656
+langcode: en
+status: true
+dependencies: {  }
+name: custom_img_720_x_350
+label: 'custom img 720 x 350'
+effects:
+  80badfd6-77c0-487f-9445-81bcae3c4e79:
+    uuid: 80badfd6-77c0-487f-9445-81bcae3c4e79
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 720
+      height: 350
+      anchor: center-center

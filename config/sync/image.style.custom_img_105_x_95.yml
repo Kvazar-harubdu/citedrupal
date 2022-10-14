@@ -1,0 +1,15 @@
+uuid: b71cfc01-0b6e-4dd7-a854-1004c57403a8
+langcode: en
+status: true
+dependencies: {  }
+name: custom_img_105_x_95
+label: 'custom img 105 x 95'
+effects:
+  7a8777ba-8f75-4a6d-8b83-970253b8ca3a:
+    uuid: 7a8777ba-8f75-4a6d-8b83-970253b8ca3a
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 105
+      height: 95
+      anchor: center-center

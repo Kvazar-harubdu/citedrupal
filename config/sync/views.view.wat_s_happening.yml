@@ -6,7 +6,8 @@ dependencies:
     - field.storage.node.body
     - field.storage.node.field_categories
     - field.storage.node.field_image
-    - image.style.media_library
+    - image.style.custom_img_980_x_400
+    - image.style.custom_img_article
     - node.type.article
     - taxonomy.vocabulary.blogs_categories
   content:
@@ -86,7 +87,7 @@ display:
           type: media_thumbnail
           settings:
             image_link: ''
-            image_style: media_library
+            image_style: custom_img_article
             image_loading:
               attribute: lazy
           group_column: target_id
@@ -767,7 +768,7 @@ display:
           type: media_thumbnail
           settings:
             image_link: ''
-            image_style: media_library
+            image_style: custom_img_980_x_400
             image_loading:
               attribute: lazy
           group_column: target_id

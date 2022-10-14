@@ -1,0 +1,15 @@
+uuid: 1309d0d4-61fa-4a39-a31f-f890c65b80c3
+langcode: en
+status: true
+dependencies: {  }
+name: custom_img_article
+label: 'custom img 980 x 220'
+effects:
+  b4bfac44-2ffe-496c-bcfc-7ebb3a57c79a:
+    uuid: b4bfac44-2ffe-496c-bcfc-7ebb3a57c79a
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 980
+      height: 220
+      anchor: center-center

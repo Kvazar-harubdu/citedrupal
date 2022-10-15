@@ -20,6 +20,7 @@ content:
     label: visually_hidden
     settings:
       image_link: ''
+      image_style: large
       image_style: custom_img_article
       image_loading:
         attribute: lazy

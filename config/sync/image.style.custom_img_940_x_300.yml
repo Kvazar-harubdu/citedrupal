@@ -1,0 +1,15 @@
+uuid: 2da2a424-f655-4304-bea3-387ed049ca42
+langcode: en
+status: true
+dependencies: {  }
+name: custom_img_940_x_300
+label: 'custom img 940 x 300'
+effects:
+  3f4ec912-754b-402c-99a4-c63541e9618c:
+    uuid: 3f4ec912-754b-402c-99a4-c63541e9618c
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 940
+      height: 300
+      anchor: center-center
